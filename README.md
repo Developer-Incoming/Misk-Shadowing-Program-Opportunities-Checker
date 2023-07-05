@@ -7,6 +7,8 @@ For short it just sends GET requests to the site to get all information about th
 ![Result after selecting and including your authorization's:](https://github.com/Developer-Incoming/Misk-Shadowing-Program-Opportunities-Checker/assets/56730075/d4a97044-0eec-450f-a901-ca3ef438da88)
 
 
+
+
 Forgot to mention you need some built-in Python 3.11.3's modules, and an extenal library called [Keyboard](https://pypi.org/project/keyboard/), to stop the program so it prints the logs if enabled, edit the code to your liking if you have trust issues or paranoid, we care less to some extent.
 
 
