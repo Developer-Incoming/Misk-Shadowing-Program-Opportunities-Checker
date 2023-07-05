@@ -73,8 +73,6 @@ while not keyboard.is_pressed(stopKey):
     )
 
     for x in json.loads(request.content):
-        print("\n") # for readability.
-        
         if x["id"] in targetIds:
             print(f"{colors.end}{x['id']} {f'{colors.green}available!{colors.end}' if x['count'] > 0 else f'{colors.red}unavailable{colors.end}'}") # forgive me,
 
@@ -92,5 +90,6 @@ while not keyboard.is_pressed(stopKey):
                     ballontip.balloon_tip("Found a Chance!", x["name"]["en"].capitalize())
     
     time.sleep(cooldown)
+    print("\n") # for readability.
 
 print(f"last availables: {lastAvailables if logAvailables else f'{colors.red}log disabled{colors.end}'}")
