@@ -80,8 +80,8 @@ Ratelimit Reset:     {request.headers['X-Ratelimit-Reset']}
 
     for x in json.loads(request.content):
         if x["id"] in targetIds:
-            print(f"{colors.end}{x['id']} {f'{colors.green}available!{colors.end}' if x['count'] > 0 else f'{colors.red}unavailable{colors.end}'}") # forgive me,
-
+            print(f"{colors.end}{x['id']} {colors.black}({x['count']}) {f'{colors.green}available!{colors.end}' if x['count'] > 0 else f'{colors.red}unavailable{colors.end}'}") # forgive me,
+            
             if x['count'] > 0:
                 if logAvailables:
                     lastAvailables.append(f"{x['id']}{colors.black} - {colors.end}{datetime.datetime.now()}")
