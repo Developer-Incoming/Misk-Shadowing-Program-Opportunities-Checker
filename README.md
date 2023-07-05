@@ -10,22 +10,23 @@ Ctrl+Shift+I, Network tab, and capture any request, from there scroll down until
 
 ## To change opportunities from riyadh to something else
 First, [Check this line of code](https://github.com/Developer-Incoming/Misk-Shadowing-Program-Opportunities-Checker/blob/main/main.py#L69), and change it to your city of choice, choices are (probably case sensitive, so copy paste it exactly as it is in **English**):
-الباحة  - bahah
-الجوف  - jowf
-الحدود الشمالية  - northern-borders
-الرياض  - riyadh
-القصيم  - qassim
-المدينة المنورة  - medina
-المنطقة الشرقية  - eastern-province
-تبوك  - tabuk
-جازان  - jazan
-حائل  - hail
-عسير  - asir
-مكة المكرمة  - makkah
-نجران  - najran
+- الباحة  : `bahah`
+- الجوف  : `jowf`
+- الحدود الشمالية  : `northern-borders`
+- الرياض  : `riyadh`
+- القصيم  : `qassim`
+- المدينة المنورة  : `medina`
+- المنطقة الشرقية  : `eastern-province`
+- تبوك  : `tabuk`
+- جازان  : `jazan`
+- حائل  : `hail`
+- عسير  : `asir`
+- مكة المكرمة  : `makkah`
+- نجران  : `najran`
 
 
 So, from *`https://api.jsp.elham.training/api/students/opportunities/fields/`riyadh* to *`https://api.jsp.elham.training/api/students/opportunities/fields/`makkah* as an example.
+
 
 Forgot to mention you need some built-in Python 3.11.3's modules, and an extenal library called [Keyboard](https://pypi.org/project/keyboard/), to stop the program so it prints the logs if enabled, edit the code to your liking if you have trust issues or paranoid, we care less to some extent.
 
