@@ -10,6 +10,7 @@ Ctrl+Shift+I, Network tab, and capture any request, from there scroll down until
 ![Result after selecting and including your authorization's:](https://github.com/Developer-Incoming/Misk-Shadowing-Program-Opportunities-Checker/assets/56730075/d4a97044-0eec-450f-a901-ca3ef438da88)
 
 </br>
+</br>
 
 ## To change opportunities from riyadh to something else
 First, [Check this line of code](https://github.com/Developer-Incoming/Misk-Shadowing-Program-Opportunities-Checker/blob/main/main.py#L69), and change it to your city of choice, choices are (probably case sensitive, so copy paste it exactly as it is in **English**):
@@ -29,6 +30,8 @@ First, [Check this line of code](https://github.com/Developer-Incoming/Misk-Shad
 
 
 So, from *`https://api.jsp.elham.training/api/students/opportunities/fields/riyadh`* to *`https://api.jsp.elham.training/api/students/opportunities/fields/makkah`* as an example.
+
+*As a fun little project for you, make it so the user inputs the city he wants instead of hardcoding it, as I forgot to implement it. And I'm now too busy celebrating my victory*
 
 </br>
 </br>
