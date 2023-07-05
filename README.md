@@ -3,6 +3,7 @@
 For short it just sends GET requests to the site to get all information about the job shadowing, and then I just check whatever appeals to me so the code can check their availability instead, as automation is better, and also spending time coding is better than doing manual labor, I'm doing good for people who's after automation, I suppose.
 
 </br>
+
 ## To get your bearer auth
 Ctrl+Shift+I, Network tab, and capture any request, from there scroll down until you see "Authorization:" with some text after it, select it all and then paste it, and make sure to read any code before executing it, as many Python scripts do include malicious lines.
 
