@@ -72,6 +72,12 @@ while not keyboard.is_pressed(stopKey):
         }
     )
 
+    print(f'''
+Ratelimit Limit:     {request.headers['X-Ratelimit-Limit']}
+Ratelimit Remaining: {request.headers['X-Ratelimit-Remaining']}
+Ratelimit Reset:     {request.headers['X-Ratelimit-Reset']}
+    ''')
+
     for x in json.loads(request.content):
         if x["id"] in targetIds:
             print(f"{colors.end}{x['id']} {f'{colors.green}available!{colors.end}' if x['count'] > 0 else f'{colors.red}unavailable{colors.end}'}") # forgive me,
