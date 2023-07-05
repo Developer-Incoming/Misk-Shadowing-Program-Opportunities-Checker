@@ -5,4 +5,4 @@ For short it just sends GET requests to the site to get all information about th
 Forgot to mention you need some built-in Python 3.11.3's modules, and an extenal library called [Keyboard](https://pypi.org/project/keyboard/), to stop the program so it prints the logs if enabled, edit the code to your liking if you have trust issues or paranoid, we care less to some extent.
 
 
-Update: it worked and after over 12 hours of continuous request per second got an IT opportunity available, surprisingly it was only 1.
+**Update: it worked and after over 12 hours of continuous request per second got an IT opportunity available, surprisingly it was only 1.**
