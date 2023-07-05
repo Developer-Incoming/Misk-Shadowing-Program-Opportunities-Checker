@@ -13,7 +13,7 @@ Ctrl+Shift+I, Network tab, and capture any request, from there scroll down until
 </br>
 
 ## To change opportunities from riyadh to something else
-First, [Check this line of code](https://github.com/Developer-Incoming/Misk-Shadowing-Program-Opportunities-Checker/blob/main/main.py#L69), and change it to your city of choice, choices are (probably case sensitive, so copy paste it exactly as it is in **English**):
+First, [Check this line of code](https://github.com/Developer-Incoming/Misk-Shadowing-Program-Opportunities-Checker/blob/main/main.py#L69), and change it to your city of choice, options are (probably case sensitive, so ctrl+c&v it exactly in **English**):
 - الباحة  : `bahah`
 - الجوف  : `jowf`
 - الحدود الشمالية  : `northern-borders`
