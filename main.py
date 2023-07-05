@@ -16,7 +16,7 @@ stopKey = "q" # Stops the script
 logAvailables = True # after holding the stop key, it'll print the log of when an available chance is found
 allowWebTrigger = False # Allows to open the page below after it gets triggered, and only triggers once in a script's lifetime
 openSiteTrigger = "https://web.whatsapp.com/send/?phone=XXXXXXXXXXXX&text=X" # read above. can be "api" for application or "web" for WA web
-ballontipTrigger = True # Whenever it finds a chance, it'll do a notification.
+ballontipTrigger = False # Whenever it finds a chance, it'll do a notification.
 
 
 # external modules
@@ -73,6 +73,8 @@ while not keyboard.is_pressed(stopKey):
     )
 
     for x in json.loads(request.content):
+        print("\n") # for readability.
+        
         if x["id"] in targetIds:
             print(f"{colors.end}{x['id']} {f'{colors.green}available!{colors.end}' if x['count'] > 0 else f'{colors.red}unavailable{colors.end}'}") # forgive me,
 
